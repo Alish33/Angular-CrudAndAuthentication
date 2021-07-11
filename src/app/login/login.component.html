@@ -1,0 +1,22 @@
+<div class="col-md-4 mt-5 offset-4 rounded-3 bg-dark">
+    <div class="head text-center text-warning pt-4">
+        <h3>Login</h3>
+        <hr style="border-bottom: 2px solid white;">
+    </div>
+    <form [formGroup]="signInForm" class="px-4">
+        <div class="mb-3 w-65">
+          <label class="form-label text-light">User Name</label>
+          <input type="text" class="form-control" formControlName="email" aria-describedby="emailHelp">
+        </div>
+
+        <div class="mb-3 w-65">
+          <label class="form-label text-light">Password</label>
+          <input type="password" formControlName="password" class="form-control">
+        </div>
+
+        <div class="text-center pb-4 mt-2">
+            <button type="submit" (click)="signIn(signInForm.value)" class="btn  btn-sm btn-outline-primary">Sign In</button>
+        </div>
+      </form>
+</div>
+

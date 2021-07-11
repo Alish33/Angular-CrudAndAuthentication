@@ -1,0 +1,17 @@
+export const proxyPolyfillCompat = {
+    settings: null,
+    defaultConfig: null,
+    fetchTimeMillis: null,
+    lastFetchStatus: null,
+    activate: null,
+    ensureInitialized: null,
+    fetch: null,
+    fetchAndActivate: null,
+    getAll: null,
+    getBoolean: null,
+    getNumber: null,
+    getString: null,
+    getValue: null,
+    setLogLevel: null,
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYmFzZS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL3NyYy9yZW1vdGUtY29uZmlnL2Jhc2UudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsTUFBTSxDQUFDLE1BQU0sbUJBQW1CLEdBQUc7SUFDakMsUUFBUSxFQUFFLElBQUk7SUFDZCxhQUFhLEVBQUUsSUFBSTtJQUNuQixlQUFlLEVBQUUsSUFBSTtJQUNyQixlQUFlLEVBQUUsSUFBSTtJQUNyQixRQUFRLEVBQUUsSUFBSTtJQUNkLGlCQUFpQixFQUFFLElBQUk7SUFDdkIsS0FBSyxFQUFFLElBQUk7SUFDWCxnQkFBZ0IsRUFBRSxJQUFJO0lBQ3RCLE1BQU0sRUFBRSxJQUFJO0lBQ1osVUFBVSxFQUFFLElBQUk7SUFDaEIsU0FBUyxFQUFFLElBQUk7SUFDZixTQUFTLEVBQUUsSUFBSTtJQUNmLFFBQVEsRUFBRSxJQUFJO0lBQ2QsV0FBVyxFQUFFLElBQUk7Q0FDbEIsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjb25zdCBwcm94eVBvbHlmaWxsQ29tcGF0ID0ge1xuICBzZXR0aW5nczogbnVsbCxcbiAgZGVmYXVsdENvbmZpZzogbnVsbCxcbiAgZmV0Y2hUaW1lTWlsbGlzOiBudWxsLFxuICBsYXN0RmV0Y2hTdGF0dXM6IG51bGwsXG4gIGFjdGl2YXRlOiBudWxsLFxuICBlbnN1cmVJbml0aWFsaXplZDogbnVsbCxcbiAgZmV0Y2g6IG51bGwsXG4gIGZldGNoQW5kQWN0aXZhdGU6IG51bGwsXG4gIGdldEFsbDogbnVsbCxcbiAgZ2V0Qm9vbGVhbjogbnVsbCxcbiAgZ2V0TnVtYmVyOiBudWxsLFxuICBnZXRTdHJpbmc6IG51bGwsXG4gIGdldFZhbHVlOiBudWxsLFxuICBzZXRMb2dMZXZlbDogbnVsbCxcbn07XG4iXX0=

@@ -1,0 +1,33 @@
+<div class="col-md-4 mt-5 offset-4  rounded-3 shadow-lg bg-dark">
+    <div class="text-center pt-3">
+        <h4 class="text-warning">Registration</h4>
+        <hr style="border-bottom: 2px solid white;">
+    </div>
+    <form class="mt-4 px-3" [formGroup]="signUpForm">
+        <div class="mb-3">
+          <label class="form-label text-light"> Name</label>
+          <input type="text" class="form-control" formControlName="name" >
+        </div>
+
+          <div class="mb-3">
+            <label class="form-label text-light">Email address</label>
+            <input type="email" class="form-control" formControlName= "email" aria-describedby="emailHelp">
+          </div>
+
+        <div class="mb-3 ">
+          <label class="form-label text-light">Password</label>
+          <input type="password" formControlName="password" class="form-control">
+        </div>
+        
+        <div class="mb-3">
+            <label class="form-label text-light">Confirm Password</label>
+            <input type="password" formControlName="cPassword" class="form-control">
+          </div>
+      
+          <div class="text-center mt-2 pb-4">
+            <button type="submit" class="btn btn-sm btn-outline-success" (click)="addData(signUpForm.value)">Register</button>
+          </div>
+        
+      </form>
+
+</div>

@@ -1,0 +1,28 @@
+ <div class="col-md-5 offset-4 mt-5 bg-dark p-3 text-light rounded-3">
+  <form [formGroup]="profileForm">
+
+    <div class="text-center text-danger pt-3">
+      <h4>Angular CRUD</h4>
+    </div>
+
+    <div class="mb-3 mx-3">
+      <label>Name</label>
+      <input type="text" class="form-control" formControlName="name" id="Sname">
+    </div>
+
+    <div class="mb-3 mx-3">
+      <label>Age</label>
+      <input type="text" formControlName="age" class="form-control" id="Sage">
+    </div>
+
+    <div class="mb-3 mx-3">
+      <label>Color</label>
+      <input type="text" formControlName="color" class="form-control" id="Scolor">
+    </div>
+    
+    <div class="text-center">
+      <button type="submit" (click)="addToDatabase(profileForm.value)" class="btn btn-sm btn-success">{{storeId == null ? 'Submit': 'Update'}}</button>
+    </div>
+
+  </form>
+</div> 

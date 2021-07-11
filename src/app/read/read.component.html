@@ -1,0 +1,31 @@
+
+<div class="col-md-5 offset-3 mt-5 border border-rounded">
+  <table class="table table-light table-hover">
+    <thead>
+      <tr>
+        <th scope="col">SN</th>
+        <th scope="col">Name</th>
+        <th scope="col">Age</th>
+        <th scope="col">Color</th>
+        <th scope="col" class="text-center">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr *ngFor="let crud of cruds; index as i">
+        <th scope="row">{{i+1}}</th>
+        <td>{{crud.name}}</td>
+        <td>{{crud.age}}</td>
+        <td>{{crud.color}}</td>
+        <td><a [routerLink] = "['/add', crud.id]" class="btn btn-sm btn-outline-primary">Edit</a>
+            <a class="btn btn-sm btn-outline-danger ms-3" (click)="deleteToDatabase(crud.id)">Delete</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+

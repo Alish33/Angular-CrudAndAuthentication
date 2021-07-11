@@ -1,0 +1,10 @@
+import { NgModule } from '@angular/core';
+import { AngularFireRemoteConfig } from './remote-config';
+export class AngularFireRemoteConfigModule {
+}
+AngularFireRemoteConfigModule.decorators = [
+    { type: NgModule, args: [{
+                providers: [AngularFireRemoteConfig]
+            },] }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicmVtb3RlLWNvbmZpZy5tb2R1bGUuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi9zcmMvcmVtb3RlLWNvbmZpZy9yZW1vdGUtY29uZmlnLm1vZHVsZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxPQUFPLEVBQUUsUUFBUSxFQUFFLE1BQU0sZUFBZSxDQUFDO0FBQ3pDLE9BQU8sRUFBRSx1QkFBdUIsRUFBRSxNQUFNLGlCQUFpQixDQUFDO0FBSzFELE1BQU0sT0FBTyw2QkFBNkI7OztZQUh6QyxRQUFRLFNBQUM7Z0JBQ04sU0FBUyxFQUFFLENBQUMsdUJBQXVCLENBQUM7YUFDdkMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBOZ01vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xuaW1wb3J0IHsgQW5ndWxhckZpcmVSZW1vdGVDb25maWcgfSBmcm9tICcuL3JlbW90ZS1jb25maWcnO1xuXG5ATmdNb2R1bGUoe1xuICAgIHByb3ZpZGVyczogW0FuZ3VsYXJGaXJlUmVtb3RlQ29uZmlnXVxufSlcbmV4cG9ydCBjbGFzcyBBbmd1bGFyRmlyZVJlbW90ZUNvbmZpZ01vZHVsZSB7IH1cbiJdfQ==
